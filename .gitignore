@@ -1,5 +1,4 @@
 *.json
-/data
 .DS_Store
 *.bz2
 .csv
