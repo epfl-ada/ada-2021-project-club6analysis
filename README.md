@@ -1,4 +1,4 @@
-# Title: A (not so) Random Walk Down Wall Street
+# A (not so) Random Walk Down Wall Street
 ## An investigation into whether media coverage affects stock prices
 
 # Abstract
