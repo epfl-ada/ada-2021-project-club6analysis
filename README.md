@@ -7,20 +7,22 @@ Stock prices vary significantly from day to day. Some of these fluctuations are 
 ### Research Questions: 
 
 This project aims to answer the following questions:
-*Does a correlation exist between any of the following features and the stock price of Apple Inc?
-  +Amount of media attention.
-  +General wording in the media.
-  +Certain people quoted in the media.
-*If the answer to the above question is yes, does there exist causation?
-  +If so, which features affect the stock price the most? 
-  +Can these findings be used to predict future stock prices?
-*Does the amount of media attention correlate with the volatility of its stock price?
-*How does the media attention change when Apple launches new products? 
-*Compare the sentiment of media attention before and after the release of (a) new product(s)
-*Compare the sentiment of media attention before and after the release of a quarterly report and see how the stock price changes in the following period.
+- Does a correlation exist between any of the following features and the stock price of Apple Inc?
+  * Amount of media attention.
+  * General wording in the media.
+  * Certain people quoted in the media.
+- If the answer to the above question is yes, does there exist causation?
+  * If so, which features affect the stock price the most? 
+  * Can these findings be used to predict future stock prices?
+- Does the amount of media attention correlate with the volatility of its stock price?
+- How does the media attention change when Apple launches new products? 
+- Compare the sentiment of media attention before and after the release of (a) new product(s)
+- Compare the sentiment of media attention before and after the release of a quarterly report and see how the stock price changes in the following period.
 
 
 ![](https://github.com/epfl-ada/ada-2021-project-club6analysis/blob/main/most_frequent_quoters_animation.gif)
 
 
 ![](https://github.com/epfl-ada/ada-2021-project-club6analysis/blob/main/data/data_extraction_pipeline.png)
+
+![](https://github.com/epfl-ada/ada-2021-project-club6analysis/blob/main/data/data_preprocessing_pipeline.png)
