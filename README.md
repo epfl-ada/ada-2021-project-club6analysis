@@ -6,7 +6,7 @@ Stock prices vary significantly from day to day. Some of these fluctuations are 
 
 ### Research Questions: 
 
-This project aims to answer the following questions:
+**_This project aims to answer the following questions_**:
 - Does a correlation exist between any of the following features and the stock price of Apple Inc?
   * Amount of media attention.
   * General wording in the media.
@@ -18,6 +18,22 @@ This project aims to answer the following questions:
 - How does the media attention change when Apple launches new products? 
 - Compare the sentiment of media attention before and after the release of (a) new product(s)
 - Compare the sentiment of media attention before and after the release of a quarterly report and see how the stock price changes in the following period.
+
+### Additional Data & Metrics
+
+**_To answer the research questions above, we will need data about the following key financial figures from Apple:_**
+-Stock price
+   *Format: Date | Close/Last | Volume | Open | High | Low
+   *Source: https://www.nasdaq.com/market-activity/stocks/aapl/historical
+-Dates from the period 2015 - 2020 of
+   *Apple’s product release events
+      +Format: Date 
+      +Source: Made by group 
+   *Apple's quarterly reports
+      +Format: Date
+      +Source: Made by group 
+      
+We will analyze the stock figures by sourcing an additional dataset regarding Apple Inc. Common stock. We have sourced a CSV dataset from NASDAQ containing the last ten years of data about the stock, aggregated per date. This data will be comparable to the quotes through the Date column. Because stock data is only registered for days when the stock exchange is open, which doesn’t include weekends and bank holidays, we will group the stock data by week and average the features. 
 
 
 ![](https://github.com/epfl-ada/ada-2021-project-club6analysis/blob/main/most_frequent_quoters_animation.gif)
