@@ -5,3 +5,4 @@
 ![](https://github.com/epfl-ada/ada-2021-project-club6analysis/blob/main/most_frequent_quoters_animation.gif)
 
 
+![](https://github.com/epfl-ada/ada-2021-project-club6analysis/blob/main/data/data_extraction_pipeline.png)
