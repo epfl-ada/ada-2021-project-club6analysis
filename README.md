@@ -58,7 +58,7 @@ We assume the number of Apple quotes in a given period is a good approximation o
 #### Investigate the relationship between Apple Inc. related quotes and their respective speakers
 We start by getting a feel of how the distribution of the most frequent speakers about Apple have changed over the relevant time period. 
 
-![](https://github.com/epfl-ada/ada-2021-project-club6analysis/blob/main/data/frequent_speakers.gif)
+![](https://github.com/epfl-ada/ada-2021-project-club6analysis/blob/main/most_frequent_speakers_animation.gif)
 
 For Milestone 3 we will investigate the relationship by comparing the different speakers to changes in stock prices. 
 
