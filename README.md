@@ -91,7 +91,7 @@ Our main challenge with this method is the implementation of sentiment analysis.
 - Milestone 8: Create the website template.
 - Milestone 9: Complete data story website with text and visualizations.
 
-#### Data preprocessing pipeline
+### Data preprocessing pipeline
 ![](https://github.com/epfl-ada/ada-2021-project-club6analysis/blob/main/data/data_extraction_pipeline.png)
 
 ---
