@@ -27,7 +27,7 @@ Stock prices vary significantly from day to day. Some of these fluctuations are 
 
 **_To answer the research questions above, we will need data about the following key financial figures from Apple:_**
 - Stock price
-  *Format: Date | Open | High | Low | Close* | Adj Close** | Volume
+  * Format: Date | Open | High | Low | Close* | Adj Close** | Volume
   * Source: https://finance.yahoo.com/quote/AAPL/history/
 - Dates from the period 2015 - 2020 of
   * Apple’s product release events
@@ -37,7 +37,7 @@ Stock prices vary significantly from day to day. Some of these fluctuations are 
     - Format: **Date**
     - Source: Made by group 
       
-We will analyze the stock figures by sourcing an additional dataset regarding Apple Inc. Common stock. We have sourced a CSV dataset from NASDAQ containing the last ten years of data about the stock, aggregated per date. This data will be comparable to the quotes through the Date column. Because stock data is only registered for days when the stock exchange is open, which doesn’t include weekends and bank holidays, we will group the stock data by week and average the features. 
+The data will be comparable to the quotes through the Date column. Since stock data is only registered for days when the stock exchange is open, which doesn’t include weekends and bank holidays, we will group the stock data by week and average the features. 
 
 ---
 
@@ -67,8 +67,7 @@ For Milestone 3 we will investigate the relationship by comparing the different 
 - Gain an understanding of the relation by plotting the weekly stock features against the weekly quote occurrences (+events). 
 - Compare stock volume and quote volume, is there any correlation between these?
 - Develop an NLP model to classify a quote as either positive, negative, or neutral. 
-- Create a model able to predict next week’s stock price/volume as a function of last week’s quote occurrences + other features
-Use **_???_**  to model the stock volume as a function of the apple-related quotes in the media. 
+- Create a regression model able to predict next week’s stock price/volume as a function of last week’s quote occurrences and the sentiment of the quotes. 
 
 #### Sentiment analysis
 Our initial idea is to map the change in sentiment before and after an Apple event. Then compare the wordings to the change in finances, each quarterly report and stock price. We can then look at four possible changes in sentiment (Negative to Negative, Negative to Positive, Positive to Negative, Positive to Positive).
