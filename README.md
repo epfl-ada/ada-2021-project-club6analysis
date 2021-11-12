@@ -1,5 +1,4 @@
 # A (not so) Random Walk Down Wall Street
-![](https://github.com/epfl-ada/ada-2021-project-club6analysis/blob/main/data/stonks.jpeg)
 ## An investigation into whether media coverage affects the stock price of Apple Inc.
 
 ### Abstract
@@ -59,7 +58,7 @@ We assume the number of Apple quotes in a given period is a good approximation o
 #### Investigate the relationship between Apple related quotes and their respective speakers
 We start by getting a feel of how the distribution of the most frequent speakers about Apple have changed over the relevant time period. 
 
-![](https://github.com/epfl-ada/ada-2021-project-club6analysis/blob/main/most_frequent_speakers_animation.gif)
+![](https://github.com/epfl-ada/ada-2021-project-club6analysis/blob/main/data/viz/most_frequent_speakers_animation.gif)
 
 As we now have a good understanding of how Apple's most frequent speakers have changed over the period, we can in Milestone 3 start investigating the speakers' relationship with the stock price of Apple. 
 
@@ -77,7 +76,7 @@ Our main challenge is the implementation of sentiment analysis. As none of the g
 ---
 
 ### Proposed timeline
-![](https://github.com/epfl-ada/ada-2021-project-club6analysis/blob/main/data/gantt_schema_timeline.png)
+![](https://github.com/epfl-ada/ada-2021-project-club6analysis/blob/main/data/viz/gantt_schema_timeline.png)
 
 ---
 
@@ -93,7 +92,7 @@ Our main challenge is the implementation of sentiment analysis. As none of the g
 -  9: Complete data story website with text and visualizations.
 
 ### Data preprocessing pipeline
-![](https://github.com/epfl-ada/ada-2021-project-club6analysis/blob/main/data/data_extraction_pipeline.png)
+![](https://github.com/epfl-ada/ada-2021-project-club6analysis/blob/main/data/viz/data_extraction_pipeline.png)
 
 ---
 
