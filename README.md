@@ -81,15 +81,15 @@ Our main challenge with this method is the implementation of sentiment analysis.
 ---
 
 ### Organization within the team:  a list of internal milestones up until project Milestone 3.
-- Milestone 1: Finish data processing pipeline.
-- Milestone 2: Exploratory data analysis
-- Milestone 3: Apple product launch analysis
-- Milestone 4: Malke a workign sentiment NLP model 
-- Milestone 5: Stock/quote analysis
-- Milestone 6: Stock prediction model
-- Milestone 7: Create storyboard for the data story + which visualizations to include.
-- Milestone 8: Create the website template.
-- Milestone 9: Complete data story website with text and visualizations.
+-  1: Finish data processing pipeline.
+-  2: Exploratory data analysis
+-  3: Apple product launch analysis
+-  4: Malke a workign sentiment NLP model 
+-  5: Stock/quote analysis
+-  6: Stock prediction model
+-  7: Create storyboard for the data story + which visualizations to include.
+-  8: Create the website template.
+-  9: Complete data story website with text and visualizations.
 
 ### Data preprocessing pipeline
 ![](https://github.com/epfl-ada/ada-2021-project-club6analysis/blob/main/data/data_extraction_pipeline.png)
