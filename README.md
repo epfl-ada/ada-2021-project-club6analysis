@@ -59,7 +59,7 @@ We assume the number of Apple quotes in a given period is a good approximation o
 We start by getting a feel of how the distribution of the most frequent speakers about Apple have changed over the relevant time period. 
 
 ![](https://github.com/epfl-ada/ada-2021-project-club6analysis/blob/main/data/viz/most_frequent_speakers_animation.gif)
-
+> Made with: https://formulae.brew.sh/formula/ffmpeg and bar-chart-race 0.1.0
 As we now have a good understanding of how Apple's most frequent speakers have changed over the period, we can in Milestone 3 start investigating the speakers' relationship with the stock price of Apple. 
 
 
