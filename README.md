@@ -35,6 +35,11 @@ Stock prices vary significantly from day to day. Some of these fluctuations are 
       
 We will analyze the stock figures by sourcing an additional dataset regarding Apple Inc. Common stock. We have sourced a CSV dataset from NASDAQ containing the last ten years of data about the stock, aggregated per date. This data will be comparable to the quotes through the Date column. Because stock data is only registered for days when the stock exchange is open, which doesn’t include weekends and bank holidays, we will group the stock data by week and average the features. 
 
+### Methods
+**Filter out all fruit related quotations**
+When searching for Apple quotes, we must discard food-related quotes while including quotes about Apple Inc. Therefore, we will use a rule-base approach, where we have a list of indicator words that decide whether to include a quotation. Since we now have a reduced the size of our dataset, we can utilize more extensie filtration algorithms, which would be too costly to run on the entire dataset.
+
+
 ### Investigate the relationship between Apple Inc. related quotes and Apple events (split on event types)
 
 We assume the number of Apple quotes in a given period is a good approximation of media attention for said period. An event could either be a product launch or a quarterly report.
