@@ -4,6 +4,8 @@
 ### Abstract
 Stock prices vary significantly from day to day. Some of these fluctuations are a direct result of events affecting the company. However, media attention and its wordings significantly affect people’s choice to buy or sell a stock, thus affecting the stock price. Our initial idea is to use Quotebank to compare the news coverage of the company Apple Inc., its front figures, and its products to the change in its financial state (stock price and its volatility) between 2015 and 2020. We chose Apple due to its size and their reputation of massive media attention when launching new products. Our goal is to quantify the impact of the media on businesses and the stock market. This could potentially complement how analysts use specific events in the world to explain changes in stock prices.
 
+---
+
 ### Research Questions: 
 
 **_This project aims to answer the following questions_**:
@@ -18,6 +20,8 @@ Stock prices vary significantly from day to day. Some of these fluctuations are 
 - How does the media attention change when Apple launches new products? 
 - Compare the sentiment of media attention before and after the release of (a) new product(s)
 - Compare the sentiment of media attention before and after the release of a quarterly report and see how the stock price changes in the following period.
+
+---
 
 ### Additional Data & Metrics
 
@@ -34,6 +38,8 @@ Stock prices vary significantly from day to day. Some of these fluctuations are 
     - Source: Made by group 
       
 We will analyze the stock figures by sourcing an additional dataset regarding Apple Inc. Common stock. We have sourced a CSV dataset from NASDAQ containing the last ten years of data about the stock, aggregated per date. This data will be comparable to the quotes through the Date column. Because stock data is only registered for days when the stock exchange is open, which doesn’t include weekends and bank holidays, we will group the stock data by week and average the features. 
+
+---
 
 ### Methods
 
@@ -68,8 +74,12 @@ Use **_???_**  to model the stock volume as a function of the apple-related quot
 Our initial idea is to map the change in sentiment before and after an Apple event. Then compare the wordings to the change in finances, each quarterly report and stock price. We can then look at four possible changes in sentiment (Negative to Negative, Negative to Positive, Positive to Negative, Positive to Positive).
 Our main challenge with this method is the implementation of sentiment analysis. As none of the group members are familiar with natural language processing, we will talk with the TA’s about our possibilities. Whether we include this analysis will therefore be decided during Milestone 3. 
 
+---
+
 ### Proposed timeline
 ![](https://github.com/epfl-ada/ada-2021-project-club6analysis/blob/main/data/data_preprocessing_pipeline.png)
+
+---
 
 ### Organization within the team:  a list of internal milestones up until project Milestone 3.
 - Milestone 1: Finish data processing pipeline.
@@ -84,6 +94,8 @@ Our main challenge with this method is the implementation of sentiment analysis.
 
 #### Data preprocessing pipeline
 ![](https://github.com/epfl-ada/ada-2021-project-club6analysis/blob/main/data/data_extraction_pipeline.png)
+
+---
 
 ### Questions for TAs (optional): 
 - How can we in a meaningful manner determine whether quotations are positive or negative?
