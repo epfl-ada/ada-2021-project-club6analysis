@@ -1,6 +1,4 @@
 *.json
 .DS_Store
 *.bz2
-.csv
-*.csv
 /.ipynb_checkpoints
