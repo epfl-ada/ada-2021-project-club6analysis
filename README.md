@@ -44,7 +44,7 @@ The data will be comparable to the quotes through the Date column. Stock data is
 ### Methods
 
 
-#### Investigate the relationship between Apple Inc. related quotes and Apple events (split on event types)
+#### Investigate the relationship between Apple Inc. related quotes and Apple events
 
 We assume the number of Apple quotes in a given period is a good approximation of media attention for said period. An event could either be a product launch or a quarterly report.
 - Plot the quote occurrences in 2 month time intervals centered around an event to visualize how the media attention develops prior to and after a specific event. 
