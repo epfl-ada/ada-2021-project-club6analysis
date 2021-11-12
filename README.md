@@ -60,7 +60,7 @@ We start by getting a feel of how the distribution of the most frequent speakers
 
 ![](https://github.com/epfl-ada/ada-2021-project-club6analysis/blob/main/most_frequent_speakers_animation.gif)
 
-For Milestone 3 we will investigate the relationship by comparing the different speakers to changes in stock prices. 
+As we now have a good understanding of how Apple's most frequent speakers have changed over the period, we can in Milestone 3 start investigating the speakers' relationship with the stock price of Apple. 
 
 
 #### Investigate the relationship between Apple Inc. related quotes and stock behaviour
@@ -96,7 +96,7 @@ Our main challenge with this method is the implementation of sentiment analysis.
 
 ---
 
-### Questions for TAs (optional): 
+### Questions for TAs: 
 - How can we in a meaningful manner determine whether quotations are positive or negative?
 
 
