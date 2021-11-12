@@ -78,7 +78,7 @@ Our main challenge is the implementation of sentiment analysis. As none of the g
 
 ### Proposed timeline
 ![](https://github.com/epfl-ada/ada-2021-project-club6analysis/blob/main/data/viz/gantt_schema_timeline.png)
-
+> Made with: Microsoft Excel
 ---
 
 ### Organization within the team:  a list of internal milestones up until project Milestone 3.
@@ -94,7 +94,7 @@ Our main challenge is the implementation of sentiment analysis. As none of the g
 
 ### Data preprocessing pipeline
 ![](https://github.com/epfl-ada/ada-2021-project-club6analysis/blob/main/data/viz/data_extraction_pipeline.png)
-
+> Made with: https://app.diagrams.net/ <br>
 ---
 
 ### Questions for TAs: 
