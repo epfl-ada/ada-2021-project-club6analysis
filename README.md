@@ -9,7 +9,7 @@ Stock prices vary significantly from day to day. Some of these fluctuations are 
 ### Research Questions: 
 
 **_This project aims to answer the following questions_**:
-- Does a correlation exist between any of the following features and the stock price of Apple Inc?
+- Does a correlation exist between any of the following features and the stock price of Apple?
   * Amount of media attention.
   * General wording in the media.
   * Certain people quoted in the media.
@@ -44,7 +44,7 @@ The data will be comparable to the quotes through the Date column. Stock data is
 ### Methods
 
 
-#### Investigate the relationship between Apple Inc. related quotes and Apple events
+#### Investigate the relationship between Apple related quotes and Apple events
 
 We assume the number of Apple quotes in a given period is a good approximation of media attention for said period. An event could either be a product launch or a quarterly report.
 - Plot the quote occurrences in 2 month time intervals centered around an event to visualize how the media attention develops prior to and after a specific event. 
@@ -55,7 +55,7 @@ We assume the number of Apple quotes in a given period is a good approximation o
 - Gather quote occurrence data from events through the period 2015 - 2020. Fit a regression model, modelling the weekly quote occurrences from a month prior to the event, to a month after the event. The resulting function will show the typical media attention distribution for a given event type
 
 
-#### Investigate the relationship between Apple Inc. related quotes and their respective speakers
+#### Investigate the relationship between Apple related quotes and their respective speakers
 We start by getting a feel of how the distribution of the most frequent speakers about Apple have changed over the relevant time period. 
 
 ![](https://github.com/epfl-ada/ada-2021-project-club6analysis/blob/main/most_frequent_speakers_animation.gif)
@@ -63,14 +63,14 @@ We start by getting a feel of how the distribution of the most frequent speakers
 As we now have a good understanding of how Apple's most frequent speakers have changed over the period, we can in Milestone 3 start investigating the speakers' relationship with the stock price of Apple. 
 
 
-#### Investigate the relationship between Apple Inc. related quotes and stock behaviour
+#### Investigate the relationship between Apple related quotes and stock behaviour
 - Gain an understanding of the relation by plotting the weekly stock features against the weekly quote occurrences (+events). 
 - Compare stock volume and quote volume, is there any correlation between these?
 - Develop an NLP model to classify a quote as either positive, negative, or neutral. 
 - Create a regression model able to predict next week’s stock price/volume as a function of last week’s quote occurrences and the sentiment of the quotes. 
 
 #### Sentiment analysis
-Our initial idea is to map the change in sentiment before and after an Apple event. Then compare the wordings to the change in finances, each quarterly report and stock price. We can then look at four possible changes in sentiment (Negative to Negative, Negative to Positive, Positive to Negative, Positive to Positive).
+Our initial idea is to map the change in sentiment before and after an Apple event. Then compare the wordings to the change in finances, each quarterly report and stock price. We can then look at four possible changes in sentiment (Negative-Negative, Negative-Positive, Positive-Negative, Positive-Positive).
 Our main challenge with this method is the implementation of sentiment analysis. As none of the group members are familiar with natural language processing, we will talk with the TA’s about our possibilities. Whether we include this analysis will therefore be decided during Milestone 3. 
 
 ---
