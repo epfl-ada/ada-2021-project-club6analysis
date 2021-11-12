@@ -27,10 +27,10 @@ Stock prices vary significantly from day to day. Some of these fluctuations are 
 
 **_To answer the research questions above, we will need data about the following key figures from Apple from 2015-2020:_**
 - Stock price
-  * Format: Date | Open | High | Low | Close* | Adj Close** | Volume
+  * Format: **Date | Open | High | Low | Close | Adj. Close | Volume**
   * Source: https://finance.yahoo.com/quote/AAPL/history/
 - Apple's quarterly reports
-    - Format: Symbol | Company | Earnings Date | EPS Estimate | Reported EPS | Surprise(%)
+    - Format: **Symbol | Company | Earnings Date | EPS Estimate | Reported EPS | Surprise(%)**
     - Source: https://finance.yahoo.com/calendar/earnings?symbol=AAPL
 - Apple’s product release event dates
     - Format: Date
