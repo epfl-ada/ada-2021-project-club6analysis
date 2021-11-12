@@ -25,19 +25,19 @@ Stock prices vary significantly from day to day. Some of these fluctuations are 
 
 ### Additional Data & Metrics
 
-**_To answer the research questions above, we will need data about the following key financial figures from Apple:_**
+**_To answer the research questions above, we will need data about the following key figures from Apple from 2015-2020:_**
 - Stock price
   * Format: Date | Open | High | Low | Close* | Adj Close** | Volume
   * Source: https://finance.yahoo.com/quote/AAPL/history/
-- Dates from the period 2015 - 2020 of
-  * Apple’s product release events
-    - Format: **Date**
-    - Source: Made by group 
-  * Apple's quarterly reports
-    - Format: **Date**
-    - Source: Made by group 
+- Apple's quarterly reports
+    - Format: Symbol | Company | Earnings Date | EPS Estimate | Reported EPS | Surprise(%)
+    - Source: https://finance.yahoo.com/calendar/earnings?symbol=AAPL
+- Apple’s product release event dates
+    - Format: Date
+    - Source: Made by the group based on info found at https://en.wikipedia.org/wiki/List_of_Apple_Inc._media_events
+  
       
-The data will be comparable to the quotes through the Date column. Since stock data is only registered for days when the stock exchange is open, which doesn’t include weekends and bank holidays, we will group the stock data by week and average the features. 
+The data will be comparable to the quotes through the Date column. Stock data is only registered for days when the stock exchange is open, thus not including weekends and bank holidays. Therefore, we will group the stock data by week and average the features when comparing them in our Milestone 3 analysis.. 
 
 ---
 
