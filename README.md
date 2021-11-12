@@ -1,4 +1,5 @@
 # A (not so) Random Walk Down Wall Street
+![](https://github.com/epfl-ada/ada-2021-project-club6analysis/blob/main/data/stonks.jpeg)
 ## An investigation into whether media coverage affects the stock price of Apple Inc.
 
 ### Abstract
