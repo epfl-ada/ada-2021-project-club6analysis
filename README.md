@@ -76,7 +76,7 @@ Our main challenge is the implementation of sentiment analysis. As none of the g
 ---
 
 ### Proposed timeline
-![](https://github.com/epfl-ada/ada-2021-project-club6analysis/blob/main/data/data_preprocessing_pipeline.png)
+![](https://github.com/epfl-ada/ada-2021-project-club6analysis/blob/main/data/gantt_schema_timeline.png)
 
 ---
 
