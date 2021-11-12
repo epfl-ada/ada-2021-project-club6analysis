@@ -71,7 +71,7 @@ As we now have a good understanding of how Apple's most frequent speakers have c
 
 #### Sentiment analysis
 Our initial idea is to map the change in sentiment before and after an Apple event. Then compare the wordings to the change in finances, each quarterly report and stock price. We can then look at four possible changes in sentiment (Negative-Negative, Negative-Positive, Positive-Negative, Positive-Positive).
-Our main challenge with this method is the implementation of sentiment analysis. As none of the group members are familiar with natural language processing, we will talk with the TA’s about our possibilities. Whether we include this analysis will therefore be decided during Milestone 3. 
+Our main challenge is the implementation of sentiment analysis. As none of the group members are familiar with natural language processing, we will talk with the TA’s about our possibilities.
 
 ---
 
