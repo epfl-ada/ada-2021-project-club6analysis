@@ -27,6 +27,7 @@ Stock prices vary significantly from day to day. Some of these fluctuations are 
 
 **_To answer the research questions above, we will need data about the following key financial figures from Apple:_**
 - Stock price
+  *Format: Date | Open | High | Low | Close* | Adj Close** | Volume
   * Source: https://finance.yahoo.com/quote/AAPL/history/
 - Dates from the period 2015 - 2020 of
   * Apple’s product release events
