@@ -36,11 +36,9 @@ Stock prices vary significantly from day to day. Some of these fluctuations are 
 We will analyze the stock figures by sourcing an additional dataset regarding Apple Inc. Common stock. We have sourced a CSV dataset from NASDAQ containing the last ten years of data about the stock, aggregated per date. This data will be comparable to the quotes through the Date column. Because stock data is only registered for days when the stock exchange is open, which doesn’t include weekends and bank holidays, we will group the stock data by week and average the features. 
 
 ### Methods
-**Filter out all fruit related quotations**
-When searching for Apple quotes, we must discard food-related quotes while including quotes about Apple Inc. Therefore, we will use a rule-base approach, where we have a list of indicator words that decide whether to include a quotation. Since we now have a reduced the size of our dataset, we can utilize more extensie filtration algorithms, which would be too costly to run on the entire dataset.
 
 
-### Investigate the relationship between Apple Inc. related quotes and Apple events (split on event types)
+#### Investigate the relationship between Apple Inc. related quotes and Apple events (split on event types)
 
 We assume the number of Apple quotes in a given period is a good approximation of media attention for said period. An event could either be a product launch or a quarterly report.
 - Plot the quote occurrences in 2 month time intervals centered around an event to visualize how the media attention develops prior to and after a specific event. 
@@ -51,7 +49,7 @@ We assume the number of Apple quotes in a given period is a good approximation o
 - Gather quote occurrence data from events through the period 2015 - 2020. Fit a regression model, modelling the weekly quote occurrences from a month prior to the event, to a month after the event. The resulting function will show the typical media attention distribution for a given event type
 
 
-### Investigate the relationship between Apple Inc. related quotes and their respective speakers
+#### Investigate the relationship between Apple Inc. related quotes and their respective speakers
 We start by getting a feel of how the distribution of the most frequent speakers about Apple have changed over the relevant time period. 
 **TODO**: Update animated plot 
 ![](https://github.com/epfl-ada/ada-2021-project-club6analysis/blob/main/most_frequent_quoters_animation.gif)
@@ -59,14 +57,14 @@ We start by getting a feel of how the distribution of the most frequent speakers
 For Milestone 3 we will investigate the relationship by comparing the different speakers to changes in stock prices. 
 
 
-### Investigate the relationship between Apple Inc. related quotes and stock behaviour
+#### Investigate the relationship between Apple Inc. related quotes and stock behaviour
 - Gain an understanding of the relation by plotting the weekly stock features against the weekly quote occurrences (+events). 
 - Compare stock volume and quote volume, is there any correlation between these?
 - Develop an NLP model to classify a quote as either positive, negative, or neutral. 
 - Create a model able to predict next week’s stock price/volume as a function of last week’s quote occurrences + other features
 Use **_???_**  to model the stock volume as a function of the apple-related quotes in the media. 
 
-### Sentiment analysis
+#### Sentiment analysis
 Our initial idea is to map the change in sentiment before and after an Apple event. Then compare the wordings to the change in finances, each quarterly report and stock price. We can then look at four possible changes in sentiment (Negative to Negative, Negative to Positive, Positive to Negative, Positive to Positive).
 Our main challenge with this method is the implementation of sentiment analysis. As none of the group members are familiar with natural language processing, we will talk with the TA’s about our possibilities. Whether we include this analysis will therefore be decided during Milestone 3. 
 
