@@ -1,10 +1,24 @@
+
 # A (not so) Random Walk Down Wall Street
+
 ## An investigation into whether media coverage affects the stock price of Apple Inc.
+
+### [Link to our data story](https://olavforland-epfl.github.io)
+
+---
 
 ### Abstract
 Stock prices vary significantly from day to day. Some of these fluctuations are a direct result of events affecting the company. However, media attention and its wordings significantly affect people’s choice to buy or sell a stock, thus affecting the stock price. Our initial idea is to use Quotebank to compare the news coverage of the company Apple Inc., its front figures, and its products to the change in its financial state between 2015 and 2020. We chose Apple due to its size and their reputation of massive media attention when launching new products. Our goal is to quantify the impact of the media on businesses and the stock market. This could potentially complement how analysts use specific events in the world to explain changes in stock prices.
 
 ---
+
+### Requirements
+To install the required packages for this project, run the following code in the terminal:
+<pre>
+    <code>
+      $ pip install -r /path/to/requirements.txt
+    </code>
+</pre>
 
 ### Research Questions: 
 
@@ -19,7 +33,6 @@ Stock prices vary significantly from day to day. Some of these fluctuations are 
 - Does the amount of media attention correlate with the volatility of its stock price?
 - How does the media attention change when Apple launches new products? 
 - Compare the sentiment of media attention before and after the release of (a) new product(s)
-- Compare the sentiment of media attention before and after the release of a quarterly report and see how the stock price changes in the following period.
 
 ---
 
@@ -37,7 +50,7 @@ Stock prices vary significantly from day to day. Some of these fluctuations are 
     - Source: Made by the group based on info found at https://en.wikipedia.org/wiki/List_of_Apple_Inc._media_events
   
       
-The data will be comparable to the quotes through the Date column. Stock data is only registered for days when the stock exchange is open, thus not including weekends and bank holidays. Therefore, we will group the stock data by week and average the features when comparing them in our Milestone 3 analysis.. 
+The data will be comparable to the quotes through the Date column. Stock data is only registered for days when the stock exchange is open, thus not including weekends and bank holidays. Therefore, we will group the stock data by week and average the features when comparing them in our analysis. 
 
 ---
 
@@ -83,11 +96,11 @@ Our main challenge is the implementation of sentiment analysis. As none of the g
 
 ### Organization within the team:  a list of internal milestones up until project Milestone 3.
 -  1: Finish data processing pipeline.
--  2: Exploratory data analysis
--  3: Apple product launch analysis
--  4: Malke a workign sentiment NLP model 
--  5: Stock/quote analysis
--  6: Stock prediction model
+-  2: Exploratory data analysis.
+-  3: Apple product launch analysis.
+-  4: Make a working sentiment NLP model.
+-  5: Stock/quote analysis.
+-  6: Stock prediction model.
 -  7: Create storyboard for the data story + which visualizations to include.
 -  8: Create the website template.
 -  9: Complete data story website with text and visualizations.
@@ -99,6 +112,13 @@ Our main challenge is the implementation of sentiment analysis. As none of the g
 
 ### Questions for TAs: 
 - How can we in a meaningful manner determine whether quotations are positive or negative?
+---
+
+### Contriubtions
+* Olav: Plotting a bar chart race of frequent speakers and some quotation plotes. Setting up the web page and writing the datastory;<br>
+* Fridtjof: Making a preprocessing model that filters the quotebank for Apple-related quotes. Building a sentiment NLP model and doing initial sentiment analysis;<br>
+* Nikolai: Doing a initial analysis of the Apple quotes. Investigating the relationship between Apple product launches and media attention;<br>
+* Haakon: Doing a initial analysis of Apple stocks, Apple events and quarterly earnings. Investigating the relationship between stocks and sentiment;<br>
 
 
 
