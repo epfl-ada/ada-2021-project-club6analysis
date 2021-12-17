@@ -124,7 +124,7 @@ Our main challenge is the implementation of sentiment analysis. As none of the g
 
 ### Contriubtions
 * Olav: Plotting a bar chart race of frequent speakers and some quotation plotes. Setting up the web page and writing the datastory;<br>
-* Fridtjof: Making a preprocessing model that filters the quotebank for Apple-related quotes. Building a sentiment NLP model and doing initial sentiment analysis;<br>
+* Fridtjof: Making a preprocessing model that filters the quotebank for Apple-related quotes. Building a sentiment NLP model, doing initial sentiment analysis and creating word cloud.;<br>
 * Nikolai: Doing a initial analysis of the Apple quotes. Investigating the relationship between Apple product launches and media attention;<br>
 * Haakon: Doing a initial analysis of Apple stocks, Apple events and quarterly earnings. Investigating the relationship between stocks and sentiment;<br>
 
