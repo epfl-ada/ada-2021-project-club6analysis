@@ -5,12 +5,12 @@
 
 ### [Link to our data story](https://olavforland-epfl.github.io)
 
-*Comment*: For the smoothest experience we recommend running the website in full screen mode in Google Chrome. The design has been made based on what looks best on a 13'' MacBook Air. 
+#####*Comment*: For the smoothest experience we recommend running the website in full screen mode in Google Chrome. The design has been made based on what looks best on a 13'' MacBook Air. 
 ---
 
 ### Authors
 * Olav Førland
-* Fridtjof Storm Jensen
+* Fridtjof Storm Flaate
 * Nikolai Jensen
 * Haakon Melaaen Doessland
 
