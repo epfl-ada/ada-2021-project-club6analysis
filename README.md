@@ -1,10 +1,24 @@
+
 # A (not so) Random Walk Down Wall Street
+
 ## An investigation into whether media coverage affects the stock price of Apple Inc.
+
+### [Link to our data story](https://olavforland-epfl.github.io)
+
+---
 
 ### Abstract
 Stock prices vary significantly from day to day. Some of these fluctuations are a direct result of events affecting the company. However, media attention and its wordings significantly affect people’s choice to buy or sell a stock, thus affecting the stock price. Our initial idea is to use Quotebank to compare the news coverage of the company Apple Inc., its front figures, and its products to the change in its financial state between 2015 and 2020. We chose Apple due to its size and their reputation of massive media attention when launching new products. Our goal is to quantify the impact of the media on businesses and the stock market. This could potentially complement how analysts use specific events in the world to explain changes in stock prices.
 
 ---
+
+### Requirements
+To install the required packages for this project, run the following code in the terminal:
+<pre>
+    <code>
+      $ pip install -r /path/to/requirements.txt
+    </code>
+</pre>
 
 ### Research Questions: 
 
@@ -102,11 +116,10 @@ Our main challenge is the implementation of sentiment analysis. As none of the g
 ---
 
 ### Contriubtions
-Olav: Plotting a bar chart race of frequent speakers and some quotation plotes. Setting up the web page and writing the datastory;<br>
-Fridtjof: Making a preprocessing model that filters the quotebank for Apple-related quotes. Building a sentiment NLP model and doing initial sentiment analysis;<br>
-Nikolai: Doing a initial analysis of the Apple quotes. Investigating the relationship between Apple product launches and media attention;<br>
-Haakon: Doing a initial analysis of Apple stocks, Apple events and quarterly earnings. Investigating the relationship between stocks and sentiment;<br>
-
+* Olav: Plotting a bar chart race of frequent speakers and some quotation plotes. Setting up the web page and writing the datastory;<br>
+* Fridtjof: Making a preprocessing model that filters the quotebank for Apple-related quotes. Building a sentiment NLP model and doing initial sentiment analysis;<br>
+* Nikolai: Doing a initial analysis of the Apple quotes. Investigating the relationship between Apple product launches and media attention;<br>
+* Haakon: Doing a initial analysis of Apple stocks, Apple events and quarterly earnings. Investigating the relationship between stocks and sentiment;<br>
 
 
 
