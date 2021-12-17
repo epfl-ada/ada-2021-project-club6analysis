@@ -33,7 +33,6 @@ To install the required packages for this project, run the following code in the
 - Does the amount of media attention correlate with the volatility of its stock price?
 - How does the media attention change when Apple launches new products? 
 - Compare the sentiment of media attention before and after the release of (a) new product(s)
-- Compare the sentiment of media attention before and after the release of a quarterly report and see how the stock price changes in the following period.
 
 ---
 
@@ -51,7 +50,7 @@ To install the required packages for this project, run the following code in the
     - Source: Made by the group based on info found at https://en.wikipedia.org/wiki/List_of_Apple_Inc._media_events
   
       
-The data will be comparable to the quotes through the Date column. Stock data is only registered for days when the stock exchange is open, thus not including weekends and bank holidays. Therefore, we will group the stock data by week and average the features when comparing them in our Milestone 3 analysis.. 
+The data will be comparable to the quotes through the Date column. Stock data is only registered for days when the stock exchange is open, thus not including weekends and bank holidays. Therefore, we will group the stock data by week and average the features when comparing them in our analysis. 
 
 ---
 
