@@ -83,11 +83,11 @@ Our main challenge is the implementation of sentiment analysis. As none of the g
 
 ### Organization within the team:  a list of internal milestones up until project Milestone 3.
 -  1: Finish data processing pipeline.
--  2: Exploratory data analysis
--  3: Apple product launch analysis
--  4: Malke a workign sentiment NLP model 
--  5: Stock/quote analysis
--  6: Stock prediction model
+-  2: Exploratory data analysis.
+-  3: Apple product launch analysis.
+-  4: Make a working sentiment NLP model.
+-  5: Stock/quote analysis.
+-  6: Stock prediction model.
 -  7: Create storyboard for the data story + which visualizations to include.
 -  8: Create the website template.
 -  9: Complete data story website with text and visualizations.
@@ -99,6 +99,14 @@ Our main challenge is the implementation of sentiment analysis. As none of the g
 
 ### Questions for TAs: 
 - How can we in a meaningful manner determine whether quotations are positive or negative?
+---
+
+### Contriubtions
+Olav: Plotting a bar chart race of frequent speakers and some quotation plotes. Setting up the web page and writing the datastory;
+Fridtjof: Making a preprocessing model that filters the quotebank for Apple-related quotes. Building a sentiment NLP model and doing initial sentiment analysis;
+Nikolai: Doing a initial analysis of the Apple quotes. Investigating the relationship between Apple product launches and media attention;
+Haakon: Doing a initial analysis of Apple stocks, Apple events and quarterly earnings. Investigating the relationship between stocks and sentiment;
+
 
 
 
