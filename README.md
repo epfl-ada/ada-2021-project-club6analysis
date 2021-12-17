@@ -9,7 +9,7 @@
 
 ### Authors
 * Olav Førland
-* Fridtjof Storm Jensen
+* Fridtjof Storm Flaate
 * Nikolai Jensen
 * Haakon Melaaen Doessland
 
